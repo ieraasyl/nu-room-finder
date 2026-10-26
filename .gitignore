@@ -1,0 +1,16 @@
+/node_modules/
+/dist/
+/release/
+*.log
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.crx
+.DS_Store
+.idea/
+.vscode/
+/coverage/
+*.zip

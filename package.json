@@ -1,0 +1,18 @@
+{
+  "name": "nu-room-finder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find available rooms on the NU student portal for a chosen date and time range.",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "package": "node scripts/package.mjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.3"
+  }
+}

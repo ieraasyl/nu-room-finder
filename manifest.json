@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "NU Room Finder",
+  "version": "1.0.0",
+  "description": "Find NU rooms available for your date and time, with building, capacity, and equipment filters.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://my.nu.edu.kz/wps/*"
+      ],
+      "js": [
+        "src/core.js",
+        "src/filters.js",
+        "src/search.js",
+        "src/ui.js",
+        "src/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
